@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mdi/font": "^2.6.95",
     "bulma": "^0.7.1",
     "font-awesome": "^4.7.0",
     "moment": "^2.22.2",
