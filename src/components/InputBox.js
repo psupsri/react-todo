@@ -17,14 +17,17 @@ class InputBox extends Component {
 
   render() {
     return (
-      <div className="field">
-        <p className="control has-icons-right">
-          <input className="input" type="text"
-            placeholder="Write something" onKeyDown={this.handleInput}/>
-          <span className="icon is-small is-right">
-            <i className="mdi mdi-keyboard"></i>
-          </span>
-        </p>
+      <div className="box">
+        <h1 className="title">{this.props.title}</h1>
+        <div className="field">
+          <p className="control has-icons-right">
+            <input className="input" type="text"
+              placeholder="Write something" onKeyDown={this.handleInput}/>
+            <span className="icon is-small is-right">
+              <i className="mdi mdi-keyboard"></i>
+            </span>
+          </p>
+        </div>
       </div>
     )
   }
